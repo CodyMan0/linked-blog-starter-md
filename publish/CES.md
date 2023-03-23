@@ -1,0 +1,1 @@
+미국 소비자 기술협회(CTA: Consumer Technology Association)가 주관하는 세계 최대 규모의 ICT 융합 전시회

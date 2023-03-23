@@ -1,0 +1,6 @@
+-   Reset이 기본으로 탑재(어떤 브라우져서든 동일한 결과를 내도록 CSS 초기화)
+-   Production에는 실제로 사용하는 css만 포함되어 작은 css파일을 유지 가능.
+-   shadow, round, space 등 꽤 긴 style을 짧게 표현 가능하여 생산성이 높음.
+-   responsive 스타일 적용하기 쉬움
+-   hover, focus 등 처리 가능
+-   animation 가능
