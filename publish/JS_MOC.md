@@ -17,6 +17,7 @@
 
 ## 동작 원리
 [[JS_Working_Principle]]
+[[asynchronous]]
 
 ## 디테일한 문법
 [[JS_Syntax]]

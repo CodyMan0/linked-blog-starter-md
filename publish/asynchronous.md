@@ -38,9 +38,6 @@ URL :
 
 ## 한계 
 1. 에러 처리의 한계 
-2. 
-
-[[sync and async.excalidraw]]
 
 
 
