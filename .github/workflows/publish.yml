@@ -19,12 +19,11 @@ jobs:
         with:
           path: temp_blog
           repository: ${{ env.BLOG_REPO }}
+
       - name: Install Rust / cargo
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-      - name: InstallDependencies
-        run: npm install
 
       - name: Install and run obsidian-export
         run: |
