@@ -16,3 +16,8 @@
 graph[a][b] = c;
 ```
 
+# 탐색 알고리즘 
+1. [[Depth First Search]]
+2. [[Breadth First Search]]
+
+
