@@ -14,7 +14,10 @@
 ## 보안 문제
 [[WEB_security]]
 
-
+## Web Assembly
+1. [[Wastime]]
+2. [[Lunatic]]
+3. 
 
 ### 연결문서 
 1. [[Sass]]
