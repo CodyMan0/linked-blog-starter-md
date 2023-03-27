@@ -23,6 +23,9 @@ jobs:
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
+      - name: InstallDependencies
+        run: npm install
+
       - name: Install and run obsidian-export
         run: |
           cargo install obsidian-export
