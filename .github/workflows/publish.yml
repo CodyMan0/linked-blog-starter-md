@@ -14,17 +14,22 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: temp_md
+
       - name: Checkout linked blog starter repo
         uses: actions/checkout@v3
         with:
           path: temp_blog
           repository: ${{ env.BLOG_REPO }}
+
+      - name: Checkout NodeJsVersion
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
       - name: Install Rust / cargo
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-      - name: InstallDependencies
-        run: npm install
 
       - name: Install and run obsidian-export
         run: |
