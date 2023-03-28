@@ -37,7 +37,7 @@ return answer;
 역시 이중 포문 밖에 생각이 나지 않았다. 
 
 ### 정답
-[[new learning_algorithm]]
+[[What i have learned]]
 
 숫자형을 활용한 코드 
 ```js

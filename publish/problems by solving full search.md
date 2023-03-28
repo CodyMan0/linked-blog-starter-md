@@ -1,6 +1,6 @@
 
 ## 직사각형 지갑 (프로그래머스 1.17)
-[[new learning_algorithm]]
+[[What i have learned]]
 ### 유형 공부 전 나의 풀이 
 ```js
 function solution(sizes) {

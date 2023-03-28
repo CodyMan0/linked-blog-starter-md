@@ -21,3 +21,4 @@ const test1 = '34'.charCodeAt(0).toString(16);
 //1이면 31, 2면 32, 20000도 32
 ```
 12. 문자열을  - 면 숫자가 된다. 
+13. parseInt와 toString()으로 이진수를 표현할 수 있었다.
