@@ -8,10 +8,12 @@
 > 3. 상향식 구조로 글쓰기. 글감을 모아 개요를 만드는 것. 개요부터 적고 시작하지 않는다.
 
 
-> 22.7월부터 매일 정리하며 성장하고 있습니다. 🌱
+> 22.07월 부터 매일 정리하며 성장하고 있습니다. 
 
- 0. Web : [[WEB Moc]]
- 1. progamming Language [[programming Moc]]    
+
+
+0. Web : [[WEB Moc]]
+1.  progamming Language [[programming Moc]]    
  2. framework,library  [[framwork and library Moc]]        
  3. deployment      [[deployment Moc]]       
  4. 운영체제 [[OS Moc]]         
