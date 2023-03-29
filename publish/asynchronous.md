@@ -46,4 +46,4 @@ URL :
 
 키워드 :
 
-관련있는 메모 : [[event loop]], [[blocking]] , [[Non-blocking]]
+관련있는 메모 : [[event loop]], [[blocking]] , [[Non-blocking]], [[async_principle]]
