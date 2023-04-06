@@ -1,12 +1,16 @@
 1. Project 템플릿 컴포넌트
 2. 어바웃 템플릿 컴포넌트 필요할듯 
+- [x] 페이지 전환 에니메이션 
+- [x] 로딩 기능 넣어서 UI/UX 기능 구현 
+- [x] 반응형 기본 footer, sidebar
+- [ ] 페이지 마다 카카오톡 오픈 그래프로 이미지 설정하기 
 
-3. 페이지 전환 에니메이션 
-4. 로딩 기능 넣어서 UI/UX 기능 구현 
-5. 다크모드 색 전환  -> https://www.youtube.com/watch?v=YPkUczwF3mM
 
-6. 기본적은 그래프 구현 
-7. 포인터 UI 그리고 애니메이션 주자 
+
+- [ ] 다크모드 색 전환  -> https://www.youtube.com/watch?v=YPkUczwF3mM
+- [ ] 기본적은 그래프 구현 
+- [ ] 포인터 UI 그리고 애니메이션 주자 
+
 
 
 
