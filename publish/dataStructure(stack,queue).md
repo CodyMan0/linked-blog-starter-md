@@ -1,7 +1,7 @@
 #  Stack 
 선입 후출 : 들어온 곳과 나가는 곳이 동일하다. 
 
-[[올바른 괄호,프린터]]
+[[올바른 괄호,프린터 (스택)]]
 
 ### 관련있는 메모 
 [[Recursive function and full search]]

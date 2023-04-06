@@ -27,3 +27,5 @@ function InsertionSort(arr) {
 	}
 }
 ```
+
+![[insertionSort_drawing.excalidraw.png]]

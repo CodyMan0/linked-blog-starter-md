@@ -28,6 +28,8 @@ console.log(BubbleSort([1, 2, 3, 4]));
 
 ```
 
+![[bubbleDrawing.excalidraw.png]]
+
 ## 장점 
 이해와 구현이 간단하다 
 

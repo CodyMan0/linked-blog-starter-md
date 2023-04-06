@@ -10,6 +10,8 @@
 
 [[Algorithm_Type]]
 
+[[Algorithm_Review_Checker]]
+
 [[P_NP]]
 
 

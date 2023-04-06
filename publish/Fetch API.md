@@ -5,3 +5,4 @@
 
 ### 관련한 메모
 [[axios]]
+[[react-query]]

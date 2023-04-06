@@ -12,7 +12,10 @@ URL :
 	1. simon Grimm : https://www.youtube.com/watch?v=RKiMX58bLvI
 인용 : 
 
-
+# 핵심
+1.  **Routing** — figure out which route matches an incoming request
+2.  **Loading** — get the data needed by the route
+3.  **Rendering** - generate some HTML (on the server) or update the DOM (in the browser)
 
 ## 캐치 프레이즈
 1. 성능
@@ -22,6 +25,7 @@ URL :
 핵심 
 svelte는 file System Routing이 이루어지고 있다.
 자동적으로 서버에서 랜더된다.
+
 
 
 
@@ -124,6 +128,14 @@ $: if (count >= 10) {
 1. use:enhance
 -> 폼안에서 페이지를 리렌더링 하지 않고 데이터만 바꾸는 것 같다? 
 
+## 폼 데이터 만들기
+https://medium.com/codex/intro-to-sveltekit-form-actions-de62000fdad4
+
+폼의 액션으로 유저의 인풋 데이터를 관리한다. 
+
+## 개념
+1. 스벨트에 fetch가 없는 이유
+-> 스벨트는 컴파일러 기반 프레임워크인데 fetch는 런타임 API이다. 그럼에도 스벨트에서는 fetch와 같은 JS 코드로 변환한다. fetch를 사용하려면 JS 작성된 코드를 작성해야한다. 
 
 ### 생각의 연결고리
 분야 :

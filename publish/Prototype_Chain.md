@@ -10,4 +10,4 @@
 
 
 ### 관련있는 메모 
-[[react MOC]], [[Linked_List]], [[scope chaining]]
+[[react MOC]], [[Linked_List]], [[scope chain]]

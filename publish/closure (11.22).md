@@ -29,7 +29,7 @@
 
 
 # 관련있는 개념 정리 
-[[call]] , [[Execution Context]],  [[scope]], [[scope chaining]] , [[Heap memory]],  [[pure function]] ,[[sideEffect#클로저도 사이드 이펙트다]]
+[[call]] , [[Execution Context]],  [[scope]], [[scope chain]] , [[Heap memory]],  [[pure function]] ,[[sideEffect#클로저도 사이드 이펙트다]]
 
 
 ### 생각의 연결고리

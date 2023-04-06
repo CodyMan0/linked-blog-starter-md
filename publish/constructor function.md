@@ -64,7 +64,7 @@ function Person(name) {
     console.log(this.name);
   };
 }
-const person = new Person('youngjun');
+const person = new Person('juyoung');
 console.log(person);
 
 ```
@@ -136,7 +136,7 @@ console.log(person)
 
 ### **1) 인스턴스 생성**
 
-생성자 함수는 암묵적으로 빈 객체를 생성하고, 생성자 함수의 [[this-binding]]이 된다.
+생성자 함수는 암묵적으로 빈 객체를 생성하고, 생성자 함수에 [[this-binding]]이 된다.
 
 ```
 function Person(name) {

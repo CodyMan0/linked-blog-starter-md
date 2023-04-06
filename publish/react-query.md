@@ -1,19 +1,14 @@
----
-aliases: []
-tags : 
----
-Up : [[HOME 🌎]]
 
-출처 : 우아한 테크 세미나 
+출처 : 
 저자 : 
-URL :1. https://www.youtube.com/watch?v=MArE6Hy371c
-		2. [긴 튜토리얼 설명이 느림](https://www.youtube.com/watch?v=VtWkSCZX0Ec&list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2)
-		3. [리액트 쿼리 100초 설명](https://www.youtube.com/watch?v=novnyCaa7To) 
-		4. [리액트 쿼리 공식 문서](https://tanstack.com/query/v4/docs/installation)
-		5. [리액트 쿼리 문서 한글판](https://velog.io/@familyman80/React-Query-%ED%95%9C%EA%B8%80-%EB%A9%94%EB%89%B4%EC%96%BC)
-		6. [리액트 쿼리 블로그](https://velog.io/@devjooj/React-React-Query-%EC%82%AC%EC%9A%A9-%EC%9D%B4%EC%9C%A0-Queries-%EA%B0%9C%EB%85%90%ED%8E%B8)
 
-인용 : 
+
+
+# 카카오 페이 프론트 react-query 
+React Query는 React Application에서 서버의 상태를 불러오고, 캐싱하며, **지속적으로 동기화**하고 업데이트 하는 작업을 도와주는 라이브러리입니다.
+
+
+
 # 블로그 
 
 `react-query`는 서버의 값을 클라이언트에 가져오거나, 캐싱, 값 업데이트, 에러핸들링 등 비동기 과정을 더욱 편하게 하는데 사용됩니다.
