@@ -38,7 +38,7 @@ let , const 는 scope에 저장되는데  var는 window 객체 안에 생성된�
 ### 생각의 연결고리
 분야 :   
 
-키워드 : [[호이스팅]]
+키워드 : [[hoisting]]
 
 관련있는 메모 : [[call stack]]
 
