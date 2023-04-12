@@ -8,7 +8,7 @@ reference : yes
 # LeastRecentlyUsed(삽입응용)
 ## 2023-04-05 12:03 
 
-[[newLearning]]
+[[newLearning in js]]
 
 ```js
 // Least Recently Used(카카오 캐시 문제 변형)

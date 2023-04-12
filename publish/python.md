@@ -14,6 +14,8 @@ URL : [조코딩](https://www.youtube.com/watch?v=KL1MIuBfWe0&list=PLU9-uwewPMe2
 - [[python 반복문]]
 - [[python 함수]]
 - [[python 입출력]]
+- [[python 한단계]] 
+
 
 
 

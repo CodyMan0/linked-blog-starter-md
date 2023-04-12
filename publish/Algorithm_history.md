@@ -4,8 +4,8 @@
  [[re-try Note]]
 
 # 지식 노트 
-[[newLearning]]
-
+[[newLearning in js]]
+[[new_learning in python]]
 
 
 1. [[12.26 ]]
@@ -52,6 +52,7 @@
 42. [[결혼식]]
 43. [[이분 검색]]
 44. [[입국 심사]]
+45. [[모음의 갯수]]
 
 
 

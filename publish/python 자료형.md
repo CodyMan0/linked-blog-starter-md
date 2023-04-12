@@ -87,6 +87,50 @@ js에서 변수를 넣을 수 있게 하는 기호는 파이썬에서는 뺵슬�
 -> 양의 정수와 곱하면 정수만큼 문자열이 길어진다. 
 
 
+### 문자열 포매팅
+```js
+const number = 21
+const test = `my age is ${number}`
+```
+
+```python
+# 문자 포맷팅
+## 숫자 바로 대입
+print("I eat %d apples" % 3)
+
+## 문자열 바로 대입
+print("I eat %s apples" %"five")
+
+## 2개 이상 대입
+number =10
+day = "three"
+print ("I ate %d apples. so i was sick for %s days" %(number , day))
+
+
+## format 함수로 포매팅
+print("I eat {0} apples".format("three"))
+print("I eat {0} apples during {1}days".format("three", 3))
+
+
+## 공백 채우기
+print("{0:=^10}".format("hi"))
+```
+
+이런식으로 문자열안에 변수를 삽입했는데 파이썬에서는 약간 다른 것 같다. 어제는 print(f)이 동일한 개념이겠거니 했으나 다르다는 것을 오늘 알게 됐다.
+
+
+### 문자열 내장 함수
+1. count : 특정 문자열과 동일한 문자열의 갯수 반환
+2. find : 특정 문자열의 첫 인덱스 반환 없으면 -1
+3. index : find와 동일하지만 반환이 없으면 에러 발생시킴
+4. join : 문자열 삽입
+5. upper() : 대문자로
+6. lower(): 소문자로
+7. lstrip() : 왼쪽 공백 없애기 
+8. rstrip() : 오른쪽 공백 없애기 
+9. replace() : 문자열 바꾸기
+10. split() : 문자열 나누기
+
 # 튜플
 리스트와 유사하지만 한번 선언된 값을 변경할 수 없다는 특징이 있다.  (문자열과 동일한 원리 )
 리스트는 대괄호 튜플은 소괄호를 이용한다 

@@ -1,15 +1,18 @@
-1. Project 템플릿 컴포넌트
-2. 어바웃 템플릿 컴포넌트 필요할듯 
+
+
+
+# animation
 - [x] 페이지 전환 에니메이션 
 - [x] 로딩 기능 넣어서 UI/UX 기능 구현 
-- [x] 반응형 기본 footer, sidebar
-- [ ] 페이지 마다 카카오톡 오픈 그래프로 이미지 설정하기 
-- [ ] 전역적인 소개 페이지 스타일링 적용해보기
-- [ ] 다크모드 색 전환  -> https://www.youtube.com/watch?v=YPkUczwF3mM
 - [ ] 포인터 UI 그리고 애니메이션 주자 
-- [ ] 글자가 짤리는데 css로 해결해보자! 
+
+# layout
+- [x] 반응형 기본 footer, sidebar
+ - [ ] 전역 공통 컴포넌트 project's detail layout
+![[스크린샷 2023-04-10 오후 7.26.35.png|500]]
 
 
+![[스크린샷 2023-04-10 오후 7.26.45.png|500]]
 예배 아이디어
 1. 나의 진로 설계도 맵을 구현해보자
 2. 스크롤 이벤트로 목표를 위해 달려가는 이밎 표현
@@ -37,6 +40,12 @@ d3 -> https://github.com/wchorski/nextjs-obsidian-publish
 
 
 
+# CSS
+- [ ] 글자가 짤리는데 css로 해결해보자! 
+- [ ] 다크모드 색 전환  -> https://www.youtube.com/watch?v=YPkUczwF3mM
+
+# SEO
+- [ ] 페이지 마다 카카오톡 오픈 그래프로 이미지 설정하기 
 
 # error
 1. taillwind css의 동적 클래스 부여시 에러 in next.js 

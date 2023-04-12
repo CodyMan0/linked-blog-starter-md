@@ -1,10 +1,9 @@
 공식 문서 : https://kit.svelte.dev/docs/introduction
 
+[[svelte working process]]
 ## 주제 : svelte
 브라우저에 실행될떄 하는 모든 과정을 사이트가 배포 되기 전에 미리 다 해둠.  
 Svelte 주의 : 탄생한지 별로 안됐기 때문에 기능이나 커뮤니티가 덜 쌓인 부분들이 있다.
-
-
 
 ## Svelte란
 리액트와 뷰와 다르게 프레임워크 혹은 라이브러리가 아니다? 컴파일러에 가깝다? 
@@ -28,8 +27,6 @@ let name = '';
 <input bind:value={name}>
 <h2>hello {name}</h2>
 ```
-
-
 
 
 

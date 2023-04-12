@@ -15,7 +15,7 @@
 
 
 ### 관련있는 메모
-[[Function_MOC]], [[Stack]]
+[[함수 in js]], [[Stack]]
 
 
 이진 탐색과 연관있는건가? :[[binary search]]

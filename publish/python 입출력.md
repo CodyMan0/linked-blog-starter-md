@@ -15,6 +15,40 @@ import sys
 sys.stdin.readline().rstrip()
 ```
 
+### 한개의 정수 입력
+```python
+import sys
+a = int(sys.stdin.readline().rstrip())
+```
+여기서 주의할 것은 개행문자까지 a변수에 초기화된다는 것. 그래서 rstrip()을 해줘야한다
+
+### 정해진 갯수 정수를 한줄에 입력
+```python
+import sys
+a,b,c = map(int, sys.stdin.readline().split())
+```
+
+### 임의의 개수의 정수를 한줄에 입력 받아 리스트 저장
+```python
+import sys
+a,b,c = list(map(int, sys.stdin.readline().split()))
+
+```
+### 임의의 정수 n줄을 입력받아 2차원 리스트에 저장
+```python
+import sys
+data = []
+n = int(sys.stdin.readline())
+for i in range(n):
+	data.append(list(map(int,sys.stdin.readline().split())))
+```
+### 문자열 n줄을 입력받아 리스트에 저장
+```python
+import sys
+n = int(sys.stdin.readlint())
+data = [sys.stdin.readline().strip() for i in range(n)]
+```
+
 # 출력
 자바스크립트 백틱과 같이 변수와 함께 사용하는 방법은 파이썬에서는 print(f{})이다.
 
