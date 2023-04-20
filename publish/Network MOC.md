@@ -1,4 +1,5 @@
-
+# 강의
+1. 외워서 끝내는 네트워크 핵심이론 [[네트워크 강의]]
 
 1. [[network overall]]
 2. [[Network Protocal]]

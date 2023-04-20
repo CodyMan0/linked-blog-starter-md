@@ -6,6 +6,8 @@
 
 알고리즘은 어떤 문제를 해결하기 위한 방법
 
+[[thisiscodingTest]]
+
 [[Algorithm_history]]
 
 [[ real coding test]]

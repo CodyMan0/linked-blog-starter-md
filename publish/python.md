@@ -8,6 +8,7 @@ URL : [조코딩](https://www.youtube.com/watch?v=KL1MIuBfWe0&list=PLU9-uwewPMe2
 
 [온라인 코드 에디터](https://replit.com/@hys83751952/CandidBountifulDimension#main.py)
 [표준 라이브러리](https://docs.python.org/ko/3/library/index.html)
+[[new_learning in python]]
 # 기본 학습
 - [[python 자료형]]
 - [[python 조건문]]
