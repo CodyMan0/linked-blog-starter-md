@@ -4,7 +4,6 @@
 [[Depth First Search]]
 [[Breadth First Search]]
 
-
 # 정렬
 [[Sort and Griddy, Decision Algorithm]]
 ## sort 종류 
@@ -30,3 +29,6 @@
 4. [[merge Sort]]
 -> 재귀를 활용한 정렬 방법
 5. [[Quick Sort]]
+
+# 이진 탐색 
+[[binary search]]

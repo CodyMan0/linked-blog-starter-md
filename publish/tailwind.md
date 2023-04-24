@@ -1,5 +1,7 @@
 [공식 문서](https://tailwindcss.com/)
 
+# PostCSS인 tailwind
+
 ## 정의
 Tailwind CSS는 **Utility-First 컨셉**(이름을 지정하지 않고 지정된 CSS클래스를 사용하는 것을 말합니다.)을 가진 CSS 프레임워크입니다.  부트스트랩과 비슷하게 m-1, flex와 같이 미리 세팅된 유틸리티 클래스를 활용하는 방식으로 HTML 코드 내에서 스타일링을 할 수 있게 해줍니다. 
 

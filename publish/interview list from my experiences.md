@@ -59,7 +59,7 @@ Callback promise async-await 에대해
 [[async_principle]]
 
 렌더링 과정  
-[[rendering in browser]]
+[[브라우저 렌더링 과정]]
 -> 이미지로 정리 한번 더 
 
 쿠키 브라우저 storage  
