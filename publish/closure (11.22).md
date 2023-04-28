@@ -29,7 +29,7 @@
 
 
 # 관련있는 개념 정리 
-[[call]] , [[Execution Context]],  [[scope]], [[scope chaining]] , [[Heap memory]],  [[pure function]] ,[[sideEffect#클로저도 사이드 이펙트다]]
+[[call]] , [[Execution Context]],  [[scope]], [[scope chain]] , [[Heap memory]],  [[pure function]] ,[[sideEffect#클로저도 사이드 이펙트다]]
 
 
 ### 생각의 연결고리
@@ -37,6 +37,6 @@
 
 키워드 :
 
-관련있는 메모 : [[웹브라우저 ]] [[콜 스텍]], [[scope]], [[pure function]] ,[[sideEffect#클로저도 사이드 이펙트다]]
+관련있는 메모 : [[웹 브라우저 MOC ]] [[콜 스텍]], [[scope]], [[pure function]] ,[[sideEffect#클로저도 사이드 이펙트다]]
 
 

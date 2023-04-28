@@ -8,10 +8,10 @@
 	
 
 
+## 자리수의 합 
+```js
 
-
-# 문제 풀이
-[[problems by solving full search]]
+```
 
 
 

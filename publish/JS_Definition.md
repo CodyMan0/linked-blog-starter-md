@@ -25,5 +25,5 @@
 
 
 # 개념 연관성 entry point
-[[Function_MOC]] 
+[[함수 in js]] 
 [[JS_Feature]]

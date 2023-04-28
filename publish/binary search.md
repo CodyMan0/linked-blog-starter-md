@@ -28,8 +28,61 @@ Up : [[knowledge_MOCs]]
 이진 탐색 트리 자료구조는 이진 탐색 알고리즘의 장점만 취한 자료구조 
 
 
+## 코드 암기하자 
+- python 
+```python
+def binary_search(array,target,start,end ):
+    if start > end :
+        return None
+    mid = (start + end) // 2
+    if array[mid] == target:
+        return mid
+    elif array[mid] > target :
+        return binary_search(array, target, start,mid -1)
+    else :
+        return binary_search(array,target,mid+ 1, end)
+
+n , target = list(map(int, input().split()))
+array = list(map(int,input().split()))
+
+result = binary_search(array, target, 0 ,n-1)
+if result == None :
+    print("원소가 존재하지 않습니다.")
+else :
+    print(result + 1)
+```
+
+2. 반복문 사용 (top-down)
+```python
+def binary_search(array, target, start,end) :
+    while start <= end :
+        mid = (start + end ) // 2
+
+        if array[mid] == target:
+            return mid
+        elif array[mid] > target :
+            end = mid -1
+        else : 
+            start = mid + 1
+    return None
+
+n , target = list(map(int,input().split()))
+array = list(map(int,input().split()))
+
+result = binary_search(array, target, 0 , n - 1)
+
+if result == None :
+    print("원소가 존재하지 않습니다.")
+else :
+    print(result + 1)
+```
 
 
+
+## 파라메트릭 서치 
+최적화 문제를 결정 문제로 바꾸어 해결하는 기법 [[P_NP]]
+
+'원하는 조건을 만족하는 가장 알맞은 값을 찾는 문제'
 
 
 

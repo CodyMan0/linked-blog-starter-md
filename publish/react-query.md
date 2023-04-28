@@ -1,19 +1,71 @@
----
-aliases: []
-tags : 
----
-Up : [[HOME 🌎]]
 
-출처 : 우아한 테크 세미나 
+출처 : 
 저자 : 
-URL :1. https://www.youtube.com/watch?v=MArE6Hy371c
-		2. [긴 튜토리얼 설명이 느림](https://www.youtube.com/watch?v=VtWkSCZX0Ec&list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2)
-		3. [리액트 쿼리 100초 설명](https://www.youtube.com/watch?v=novnyCaa7To) 
-		4. [리액트 쿼리 공식 문서](https://tanstack.com/query/v4/docs/installation)
-		5. [리액트 쿼리 문서 한글판](https://velog.io/@familyman80/React-Query-%ED%95%9C%EA%B8%80-%EB%A9%94%EB%89%B4%EC%96%BC)
-		6. [리액트 쿼리 블로그](https://velog.io/@devjooj/React-React-Query-%EC%82%AC%EC%9A%A9-%EC%9D%B4%EC%9C%A0-Queries-%EA%B0%9C%EB%85%90%ED%8E%B8)
 
-인용 : 
+
+# 강의
+1. react-queyr key 설정하는 방식
+- /posts -> ["posts"]
+- /posts/1 -> ["posts", id]
+- /posts?authorId =1 -> ["posts", {authorId : a}]
+- /posts/2/comments -> ["posts" , post.id, "comments"]
+
+
+2. 리액트 쿼리의 refetch 특성 
+- 리액트 쿼리는 stale하다고 판단한 데이터를 refetch하는 특징이 있다. 이를 해결하기 위해
+```js
+const queryClient = new QueryClient({
+defaultOptions: { queries: { staleTime: 1000 * 60 * 5 } },
+});
+```
+최상위에 stale 해지는 시간을 정해주면 동일한 쿼리 키가 호출될때 위의 지정한 5분은 refetch되지 않고 계속 fresh 상태를 지속할 수 있다. 그말인 즉슨 불필요한 fetch를 막는다는 것. 
+
+3. preFetch도 할 수 있다.
+```js
+	function onHoverPostOneLink() {
+		queryClient.prefetchQuery({
+			queryKey: ["posts", 1],
+			queryFn: () => getPost(1),
+		});
+	}
+
+	<button
+		onMouseEnter={onHoverPostOneLink}
+		onClick={() => setCurrentPage(<Post id={1} />)}
+	>
+		First Post
+	</button>
+```
+
+4. 의존성이 있는 쿼리 만들기
+```js
+  const postQuery = useQuery({
+    queryKey: ["posts", id],
+    queryFn: () => getPost(id),
+  })
+
+  const userQuery = useQuery({
+    queryKey: ["users", postQuery?.data?.userId],
+    enabled: postQuery?.data?.userId != null,
+    queryFn: () => getUser(postQuery.data.userId),
+  })
+```
+
+enabled 프로퍼티에 불리언 값을 사용하여 postQuery의 data의 userid가 null(비어있다)이 아닐때 요청한 쿼리에 대한 응답을 받아올 수 있다. 만약 없다면 3번정도 refetch가 일어난 후, 에러 상태를 받는다. 
+
+5. useMutation에서 
+```js
+	queryClient.setQueryData(["posts", data.id], data);
+	queryClient.invalidateQueries(["posts"], { exact: true });
+```
+invalidateQueries와 setQueryData 정리 
+- invalidateQueries를 활용하여 동일한 쿼리키를 무효화할 수 있다. 변수나 하위키가 없는 posts 쿼리만 무효화하려는 경우에는 exact : true 옵션을 사용할 수 있다. 
+- setQueryData는 
+
+
+# 카카오 페이 프론트 react-query 
+React Query는 React Application에서 서버의 상태를 불러오고, 캐싱하며, **지속적으로 동기화**하고 업데이트 하는 작업을 도와주는 라이브러리입니다.
+
 # 블로그 
 
 `react-query`는 서버의 값을 클라이언트에 가져오거나, 캐싱, 값 업데이트, 에러핸들링 등 비동기 과정을 더욱 편하게 하는데 사용됩니다.
