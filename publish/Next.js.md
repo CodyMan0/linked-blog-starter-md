@@ -15,6 +15,7 @@ URL : https://www.youtube.com/watch?v=ECMB4kUCKWQ&t=448s
 
 # 공식문서 1독
 -> SSR로 동작하는 어플이 브라우저에 어떻게 렌더링이 되는지 이해하기 위해 한번 읽는 것 
+
 ##  NEXT.js가 해결한 문제
 1. 리액트와 같이 소스 코드는 웹팩과 같은 번들러와 바벨과 같은 컴파일러를 사용하여 변환해야했다. 
 2. 베포시 최적화를 위해 코드 스플릿팅을 고려해야했다.
@@ -130,8 +131,15 @@ fallback이 True getStaticProps의 동작이 변경
 
 
 
+## Next.js 렌더링 과정 
+### Pre-Rendering
+1. 서버 사이드에서 [ReactDomServer.renderToString()](https://react.dev/blog/2022/03/08/react-18-upgrade-guide#deprecations)이라는 함수를 사용해 HTML을 문자열로 가지고 온다. 
+2. 클라이언트로 Pre-rendering한 html을 전달해준다. 사전에 클라이언트 단에서 렌더링 방식을 정할 수 있습니다. 
+3. 브라우저는 매 request에 응답으로 prerendering한 html을 받습니다. 이때 화면에 렌더링을 시작하고 html 문서에 있는 js 파일을 로드합니다. 이후 클라이언트에서 ReactDom.render 함수를 통해서 React Element를 렌더링하고 이후 hydration을 통해서 interactive한 페이지로 완성시킵니다. 
 
 
+참고
+1. https://funveloper.tistory.com/164
 
 # Version 12
 1. [[next page]]
