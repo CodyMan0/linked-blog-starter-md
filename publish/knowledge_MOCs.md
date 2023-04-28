@@ -12,7 +12,7 @@
 
 
 ## GateWay 🚪
-<br>
+
  1. 운영체제 [[OS Moc]]         
  2. 네트워크 [[Network MOC]]            
  3. Hardware : [[Hardware Moc]]
