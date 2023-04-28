@@ -26,6 +26,11 @@ jobs:
         with:
           node-version: 16
 
+      - name: Install Package
+        run: |
+          npm install
+          npm install next
+
       - name: Install Rust / cargo
         uses: actions-rs/toolchain@v1
         with:
