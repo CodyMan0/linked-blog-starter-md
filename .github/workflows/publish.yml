@@ -42,6 +42,7 @@ jobs:
           cp -r temp_blog/. .
           rm -rf temp_blog
           rm -rf temp_md
+
       - name: Deploy Vercel
         uses: amondnet/vercel-action@v20
         with:
