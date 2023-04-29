@@ -1,0 +1,12 @@
+{
+  "name": "linked-blog-starter-md",
+  "version": "1.0.0",
+  "description": "## 설계도  1. 옵시디언 내부에서 obsidian-git이라는 플러그인을 활용하여 backup 명령어를 칩니다. 2. linked-blog-starter-md 레포에 푸쉬가 되고 github-action이 실행됩니다. 3. 그에 따라 linked-blog-starter 레포에 데이터가 지정한 폴더 위치에 삽입하여 자동적으로 vercel에 베포됩니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
