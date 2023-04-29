@@ -12,6 +12,7 @@
 
 ## GateWay 🚪
 
+
  1. 운영체제 [[OS Moc]]         
  2. 네트워크 [[Network MOC]]            
  3. Hardware : [[Hardware Moc]]
@@ -23,7 +24,7 @@
  9. etc : [[etc Moc]]
 
 
-현재 제 지식 상황을 나타내는 Map Of Contents 입니다. 모든 지식의 골자이며 GateWay입니다.
+현재 제 지식 상황을 나타내는 Map Of Contents 입니다. 모든 지식의 골자이며 GateWay입니다!
 
 
 
