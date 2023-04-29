@@ -16,8 +16,6 @@
 svelte는 file System Routing이 이루어지고 있다.
 자동적으로 서버에서 랜더된다.
 
-
-
 ## 투두리스트 with svelteKit
 [[투두리스트]]
 
@@ -129,6 +127,27 @@ https://medium.com/codex/intro-to-sveltekit-form-actions-de62000fdad4
 [[svelteKit working process]]
 
 
+
+### 스벨트 킷이 제공하는 DOM API는 특별하다? 
+스벨트가 제공하는 APIs는 모던 브라우저에서도 사용이 가능하지만 브라우저가 아닌 환경에서도 사용이 가능하다. 예를 달면 cloudflare workers ,deno, vercel Edge functions. adapters 덕분이라고 이해하면 될 것 같다. 
+
+#### Fetch APIs
+스벨트킷은 fetch로 서버와 통신한다. load function 안에서 svelte의 fetch를 사용할 수 있다고 한다.
+
+#### FormData
+When dealing with HTML native form submissions you'll be working with [`FormData`](https://developer.mozilla.org/en-US/docs/Web/API/FormData) objects.
+
+#### Stream APIs
+때때로 엄청나게 큰 용량의 응답을 받을때가 있다. 이런 문제를 해결하기 위해 우리는 streams를 제공한다. ex) ReadableStream, WritableStream, TransformStream
+
+#### URL APIs
+다양하게 url apis들이 있다. 훅의 event.url로 불러올 수도 있고, svelte/kit 모듈의 pages를 불러와 $page.url로 사용할 수도 있다.
+
+#### Web Crypto
+Web Crypto API는 전역 crypto를 거쳐서 사용할 수 있다. 이것은 Content 안전 정책 해더를 위해 내부적으로 사용된다. 그러나 UUIDs를 만드는데 사용할 수도 있다.
+```ts
+const uuid = crypto.randeomUUID()
+```
 
 ### 생각의 연결고리
 분야 :
