@@ -1,14 +1,5 @@
 
----
-aliases: []
-tags : 
----
-Up : [[HOME 🌎]]
-
-출처 :
-저자 :
-URL : 
-인용 : 
+Up : [[knowledge_MOCs]]
 
 ## 핵심
 한번 비동기는 영원한 비동기
