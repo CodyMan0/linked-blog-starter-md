@@ -1,18 +1,11 @@
----
-title: 지식 창고
-excerpt: 지식 창고
-date: 2023-05-02
-author:
-  name: juyoung
-ogImage:
-  url: https://velog.velcdn.com/images/sharphand1/post/fba857ae-0f50-4e1d-a24e-6219680117a5/image.jpeg
----
+
 
 
 # 지식 노트로 들어가는 GateWay
 
 
 ## 노트 정리 세가지 규칙 🌱
+
 ### 22.07 ~ 현재
 
 > 1. 내 언어로 바꾸기. 부족한 설명일지라도 괜찮다!
