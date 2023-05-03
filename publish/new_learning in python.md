@@ -12,3 +12,18 @@
 9. [spread 연산자와 비슷 ] ''[*quick_sort(lesser), pivot, *quick_sort(greater)]''
 10. [print()] 파이썬에서는 print()는 자동적으로 줄바꿈을 해준다. 
 11. [합계 점화식] :  1~ 10000까지의 숫자가 순서대로 있는데 이 땐 `n*(n+1) // 2`  해당 n과 다음 n을 곱하고 나누면 된다.
+12. [표현식]
+```python
+    if n > m  : 
+        if  n % m == 0 :
+            print('multiple')  
+        else :
+            print('neither')
+    else : 
+        if  m % n == 0 :
+            print('factor')
+        else :
+            print('neither')
+
+print('factor' if b % a == 0 else 'multiple' if a % b == 0 else 'neither')
+```
