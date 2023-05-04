@@ -1,8 +1,4 @@
 
-출처 : 
-저자 : 
-
-
 # 강의
 1. react-queyr key 설정하는 방식
 - /posts -> ["posts"]
