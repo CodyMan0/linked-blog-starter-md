@@ -1,4 +1,5 @@
-
+# idea
+1. 노드 무한 이벤트 트리거 : stopPropagation()
 
 
 # animation
@@ -245,6 +246,9 @@ className={`${widthVariants[width]} ${colorVariants[color]} h-64 relative`}
 ```
 
 이렇게 바꾸니 해결이 됐다. 왤까? 
+
+
+3. 
 
 https://fe-developers.kakaoent.com/2022/220303-tailwind-tips/
 
