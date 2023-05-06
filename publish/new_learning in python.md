@@ -28,3 +28,47 @@
 
 print('factor' if b % a == 0 else 'multiple' if a % b == 0 else 'neither')
 ```
+14. [음수를 양수로 나눈 후 나머지] % 연산자의 특징 
+```python
+-1 % 4 = 3
+```
+-1를 4로 나눈 나머지는 -1를 4로 나눈 나머지와 4가 같거나 작은 수 중에서 가장 큰 수를 4로 뺀 나머지와 같다 
+나머지는 항상 양수여야한다는 특징 그래서 0이 아니라 3이 된다. 
+-> 나머지 연산자의 결과값은 항상 양의 정수여야한다. a가 음수일 
+```python
+a % b == a - (a // b) * b
+```
+이 성립한다. 
+
+15. [영어 소문자 문자열 비교] 
+```python
+# 내코드
+t = int(input())
+
+list = [0] * 26
+
+for i in range(t) :
+    name = input()
+    last_name = name[0]
+    list[ord(last_name)-97] += 1
+
+
+if max(list) < 5 :
+    print('PREDAJA')
+else : 
+    result = ''
+    for i in range(len(list)) :
+        if list[i] > 4 : 
+            result += chr(i + 97)
+    print(result)
+
+# 다른 사람 코드 
+arr = [input()[0] for _ in range(int(input()))]
+f = 1
+for i in range(97, 123):
+    if arr.count(chr(i)) >= 5:
+        f = 0
+        print(chr(i), end='')
+
+if f: print('PREDAJA')
+```
