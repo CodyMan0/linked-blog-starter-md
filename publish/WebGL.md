@@ -4,4 +4,4 @@
 
 
 ### 관련있는 메모 
-[[OpenGL]] , [[HTML (LN)]], [[Web API]], [[three.js]]
+[[OpenGL]] , [[HTML]], [[Web API]], [[three.js]]

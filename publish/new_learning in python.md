@@ -72,3 +72,18 @@ for i in range(97, 123):
 
 if f: print('PREDAJA')
 ```
+
+16. [문자열 순서]string[::-1] 하면 된다.
+-> [시작 : 끝 : 순서]
+17. [입출력] map 
+```python
+A,B = map(list,sys.stdin.readline().split())
+```
+맵 안에 list를 넣으면 string이 split()돼서 나온다
+
+
+18. [재귀 함수 리밋 설정] 파이썬의 기본 재귀 한도는 1000 그래서 1000을 넘길때는 모듈을 추가해준다. 
+```python
+import sys
+sys.setrecursionlimit(10000)
+```

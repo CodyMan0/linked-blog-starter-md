@@ -19,6 +19,6 @@
 
 ## CSS  프론트엔드 라이브러리
 1. [[bootstrap]]
-2. [[tailwind]]
+2. [[tailwind.css]]
 3. [[styled-component]]
 

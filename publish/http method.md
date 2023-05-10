@@ -9,7 +9,6 @@ URL : [http method 정리 블로그](https://inpa.tistory.com/entry/WEB-%F0%9F%8
 # http method란
 서버에 주어진 리소스에 수행하길 원하는 행동을 지정하는 것. 
 
-주요 메소드
 1. GET : 리소스 조회
 2. Post : 요청 데이터 처리, 주로 등록
 3. PUT : 리소스를 덮어쓰거나(전체변경) 해당 리소스가 없으면 생성
