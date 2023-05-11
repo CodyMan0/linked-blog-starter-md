@@ -1,6 +1,13 @@
 # idea
 1. 노드 무한 이벤트 트리거 : stopPropagation()
 
+# 그래프
+그래프 로컬에서 보기
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cargo install obsidian-export
+obsidian-export ./test_md ./common_md
+
+[[컨트리븃 해보기]]
 
 # animation
 - [x] 페이지 전환 에니메이션 
@@ -251,7 +258,6 @@ className={`${widthVariants[width]} ${colorVariants[color]} h-64 relative`}
 3. 
 
 https://fe-developers.kakaoent.com/2022/220303-tailwind-tips/
-
 
 공부 과정 
 
