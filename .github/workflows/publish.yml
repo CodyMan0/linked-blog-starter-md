@@ -23,9 +23,6 @@ jobs:
           repository: ${{ env.BLOG_REPO }}
       - run: ls -al
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Checkout NodeJsVersion
         uses: actions/setup-node@v3
         with:
