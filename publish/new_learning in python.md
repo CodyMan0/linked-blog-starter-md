@@ -87,3 +87,12 @@ A,B = map(list,sys.stdin.readline().split())
 import sys
 sys.setrecursionlimit(10000)
 ```
+
+
+19. [소수점 컨트롤]
+```python
+print(f'{more_aver_num / num * 100 :.3f}%')
+```
+
+20. [중복 순열]  itertools의 product 라이브러리
+

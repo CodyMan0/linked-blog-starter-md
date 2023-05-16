@@ -16,7 +16,11 @@
 graph[a][b] = c;
 ```
 
+
+
 # 탐색 알고리즘 
+0. 백트레킹  탐색 기법인 두가지 
+
 1. [[Depth First Search]]
 2. [[Breadth First Search]]
 

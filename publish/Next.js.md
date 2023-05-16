@@ -10,7 +10,7 @@ Up : [[HOME 🌎]]
 URL : https://www.youtube.com/watch?v=ECMB4kUCKWQ&t=448s
 인용 : 
 [공식문서](https://nextjs.org/learn/basics/create-nextjs-app)
-
+https://www.reason-to-code.com/blog/why-we-couldn't-feel-the-difference-of-nextjs/
 넥스트 작동방식 : https://velog.io/@surim014/how-next.js-works#%EA%B0%9C%EB%B0%9C-%EB%B0%8F-%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%ED%99%98%EA%B2%BD
 
 # 공식문서 1독

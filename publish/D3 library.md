@@ -40,6 +40,6 @@ D3안에서 mouseover 이벤트가 발생되면 d3의 this를 참조해서 styli
 ### 생각의 연결고리
 분야 :
 
-키워드 : [[this]],  [[arrow function]], [[지킬에서 next로 마이그레이션]]
+키워드 : [[this]],  [[arrow function]], [[next.js를 사용하여 이력서님 개인 웹페이지 만들기]]
 
 관련있는 메모 :
