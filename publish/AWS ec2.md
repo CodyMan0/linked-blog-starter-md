@@ -249,18 +249,14 @@ CA는 root 인증 기관을 기본적으로 브라우저는 알고 있다.
 ## 인증서 붙히는 가장 쉬운 방법 cloudFlare
 cloudFlare가 대신하여 https를 제공하고 cloundflare에서 우리서버와 http로 동작하면서 중간에서 https 통신을 관리해준다. 
 
-
 ### **HSTS 우회**
-
 
 [[도메인 구입 과정]]으로 인해서 podostore.store을 구입
 [[AWS EC2와 도메인 연결 ]] -> http://www.podostore.store
 
 https://www.youtube.com/watch?v=B__QpelmCMM (2분 1초 )
 
-[[cloudFlare를 활용하여 웹서버 https로 바꾸는 과정 ]]
-
-
+[[cloudFlare를 활용하여 웹서버 https로 바꾸는 과정 ]
 
 https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#InstanceDetails:instanceId=i-07a233024232d41a9
 
@@ -279,31 +275,6 @@ cloudFlare에서 -> 페이지 규칙 설정
 
 성공
 ![[스크린샷 2023-03-07 오후 5.00.17.png]]
-## 서버와 클라이언트 베포된 애들끼리 통신시키기 
-
-
-
-
-
-
-로컬에서만 실행하지 않고 어디서든 서버 데이터를 받게 하고 싶은데??
-
-**AWS Ec2** 
-
-그럼 Ec2 컴퓨터가 꺼져도 어떻게 실행되게 하지?
-
-**PM2**
-
-그럼 어떻게 https 인증서를 붙히지?
-
-**CloudFlare** 
-
-사용하려면 도메인이 있어야한다
-
-**가비아** 
-
-로컬 파일이 바뀌면 자동으로 AWS EC2의 코드도 업데이트 될 수 있을까!? 
-
 
 
 

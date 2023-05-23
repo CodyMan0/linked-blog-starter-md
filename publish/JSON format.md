@@ -4,9 +4,12 @@ tags :
 ---
 Up : [[knowledge_MOCs]]
 
-출처 : https://www.daleseo.com/js-json/
+출처 
+- https://www.daleseo.com/js-json/ 
+- https://www.youtube.com/watch?v=Qi2LJ_NfzC0&t=155s
+
 인용 : 
-# XML -> JSON
+# XML에서 JSON로
 이유 : 가독성 
 
 ```json
@@ -27,6 +30,8 @@ Up : [[knowledge_MOCs]]
 1. JSON.parse() : 문자열을 JS 객체로 변환 
 2. JSON.stringify() : JS 객체를 문자열로 변환
 
+## JSON과 XML의 차이 
+
 
 
 ### 생각의 연결고리
@@ -34,4 +39,6 @@ Up : [[knowledge_MOCs]]
 
 키워드 : 데이터 양식 
 
-관련있는 메모 : [[XML]]
+관련있는 메모 
+1. [[XML]]
+2. [[신입 프론트엔드 면접 질문]]

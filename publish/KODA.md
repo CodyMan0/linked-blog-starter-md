@@ -42,6 +42,10 @@ ReactJs 기반 SPA 설문조사 Application.
 2.  [[ 발표 준비 ]]
 3.  [[ a retrospective meeting ]]
 
+## 리액트에서 상태관리하기 
+[[폼 다루기]]
+
+
 ## 발표 후 느낀 점
 
 1.  [a three-month memoir](https://juyoungdev.com/a-three-month-memoir)

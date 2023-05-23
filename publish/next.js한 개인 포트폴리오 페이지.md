@@ -3,6 +3,11 @@
 참고: https://resume.hyesungoh.xyz/
 만들어진 것들을 참고해서 배우면서 해야겠다. 
 
+타임 라인 만드려고 하는데 뭘로 만들면 좋을까>?
+1. react-chrono : 454kb  4496 토탈 78
+2. 그냥 html , css 및 기본 JS로? 
+3. react-vertical-timeline-component 31.8 kB 이슈 10 이번주 28695 다운로드 Total Files 18
+-> 3번으로 가자 
 
 # idea
 1. 노드 무한 이벤트 트리거 : stopPropagation()

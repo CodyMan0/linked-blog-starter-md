@@ -1,5 +1,7 @@
+# hybrid Dev
+1. [[react Native]]
 
-# frontend
+# web frontend
 
 1. 프레임워크 및 라이브러리 : [[프레임워크 및 라이브러리]]
 2. 로그인 로직 관련 지식 정리 : [[Authentication]]
@@ -13,3 +15,9 @@ deployment      [[deployment Moc]]
 
 ## 데이터 시각화
 D3 : [[D3 library]]
+
+
+## 디자인 패턴
+[[아키텍처]]
+1. [[서비스 패턴]]
+
