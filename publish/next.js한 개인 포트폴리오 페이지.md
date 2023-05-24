@@ -73,6 +73,6 @@ d3 -> https://github.com/wchorski/nextjs-obsidian-publish
 rfc 뭐야? 
 일반 
 
-
-
-
+## 2. SEO 
+개인 웹페이지는 www. juyoungdev.com이라는 도메인 서버 이름을 소유하고 있다. juyoungdev.com을 검색할때가 아니라 프론트엔드 개발자 이주영이라고 검색했을때 결과물이 나오도록 할 수 없나? 
+![[스크린샷 2023-05-24 오전 10.11.09.png]]
