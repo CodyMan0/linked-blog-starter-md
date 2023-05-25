@@ -11,6 +11,7 @@
 
 # idea
 1. 노드 무한 이벤트 트리거 : stopPropagation()
+
 # 그래프
 그래프 로컬에서 보기
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
