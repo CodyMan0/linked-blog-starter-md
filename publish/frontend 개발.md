@@ -1,5 +1,5 @@
 # hybrid Dev
-1. [[react Native]]
+1. 하이브리드 플랫폼 앱 개발 : [[react Native]]에 대해서는 아직 깊이 경험해보지 못했다. 
 
 # web frontend
 
@@ -16,8 +16,7 @@ deployment      [[deployment Moc]]
 ## 데이터 시각화
 D3 : [[D3 library]]
 
-
 ## 디자인 패턴
-[[아키텍처]]
-1. [[서비스 패턴]]
+1. [[아키텍처]]란? 
+1. [[서비스 패턴]]이란? 
 

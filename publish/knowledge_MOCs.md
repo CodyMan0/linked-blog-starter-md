@@ -15,10 +15,11 @@
 ## GateWay 🚪
 
 
- 1. 운영체제 [[OS Moc]]         
- 2. 네트워크 [[Network MOC]]            
- 3. Hardware : [[Hardware Moc]]
- 4. software : [[software Moc]]
+
+ 1. 운영체제 : [[OS Moc]]         
+ 2. 네트워크 : [[Network MOC]]            
+ 3. 하드웨어 : [[Hardware Moc]]
+ 4. 소프트웨어 : [[software Moc]]
  5. Web : [[WEB Moc]]
  6. progamming Language [[programming Moc]]    
  7. 자료 구조 [[data_structure MOC]]    

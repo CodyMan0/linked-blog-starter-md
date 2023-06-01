@@ -96,3 +96,15 @@ print(f'{more_aver_num / num * 100 :.3f}%')
 
 20. [중복 순열]  itertools의 product 라이브러리
 
+21. [Boolean] True로 연산도 가능하다 
+```python
+a = True + True + True
+print(a) ## 3
+```
+
+22. [sort] word.find
+```python
+word = 'abdceaa'
+print(sorted(word, key=word.find))
+## a a a b d c e 
+```
