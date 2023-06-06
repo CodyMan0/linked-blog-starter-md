@@ -108,3 +108,9 @@ word = 'abdceaa'
 print(sorted(word, key=word.find))
 ## a a a b d c e 
 ```
+
+23. [boolean] :
+```python
+-   any() : 하나라도 True인게 있으면 True
+-   all() : 모두 True여야 True 반환
+```
