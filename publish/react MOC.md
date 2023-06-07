@@ -1,7 +1,7 @@
 **[공식 문서](https://ko.reactjs.org/)** 
 [공식 문서 베타 버전](https://beta.reactjs.org/learn/synchronizing-with-effects)
 
-사용자 UI를 만들기 위한 [[JS_MOC]] 라이브러리!
+사용자 UI를 만들기 위한 [[JS_MOC]] 라이브러리이다.
 
 1. 컴포넌트란 : [[component in react]]
 2. ReactJs의 배경 : [[react-background]]
