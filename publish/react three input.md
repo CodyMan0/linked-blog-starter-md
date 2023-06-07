@@ -2,7 +2,8 @@
 
 props [[props]]
 state : [[state]]
-context : [[context]]
+context : [[context]], [[Context API]]
+
 
 # 지켜야하는 것
 -> 항상 읽기 전용으로 값을 관리하는 것이 핵심
