@@ -14,7 +14,6 @@
 
 ## 장단점
 [[Advantage of JS]]
-[[limitation of JS]]
 
 ## 동작 원리
 [[JS_Working_Principle]]

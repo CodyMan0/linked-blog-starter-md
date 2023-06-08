@@ -8,6 +8,4 @@ JSX는 **HTML**과 **자바스크립트 로직**을 하나의 자바스크립트
 
 JSX로 작성한 코드는 브라우저에서 동작하기 전에 [Babel](https://babeljs.io/)이라는 transcompiler를 통해 일반 자바스크립트 코드 형태로 변환됩니다.
 
-## JSX 규칙
-[[JS_Syntax]]
 

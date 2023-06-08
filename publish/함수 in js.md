@@ -1,5 +1,5 @@
 # 함수란? 
-함수는 [[scope]], [[Execution Context]], [[definition of Closure]], [[constructor function]], [[메서드]], [[this]], [[Prototype]], [[모듈화]] 등과 모두 ==함수==와 깊은 관련이 있다.
+함수는 [[scope]], [[Execution Context]], [[definition of Closure]], [[constructor function and prototype]], [[메서드]], [[this]], [[Prototype]], [[모듈화]] 등과 모두 ==함수==와 깊은 관련이 있다.
 
 함수는 자바스크립트를 정확히 이해하고 사용하기 위해 피하갈 수 없는 핵심 중의 핵심
 
@@ -25,7 +25,7 @@ return x + y;
 함수 정의 4가지 
 - [[함수 선언문]]
 - [[함수 표현식]]
-- [[constructor function]]
+- [[constructor function and prototype]]
 - 화살표 함수 (ES6)
 
 ## 함수 호출

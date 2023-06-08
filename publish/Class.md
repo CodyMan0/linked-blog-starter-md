@@ -465,6 +465,6 @@ console.log(cylinder.getVolume());    // 125.66370614359172
 
 
 ### 관련있는 메모 
-1. [[constructor function]] 
+1. [[constructor function and prototype]] 
 
 
