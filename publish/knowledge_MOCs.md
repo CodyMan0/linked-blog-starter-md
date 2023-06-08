@@ -16,16 +16,15 @@
 > 현재 제 지식 상황을 나타내는 Map Of Contents 입니다. 모든 지식의 골자이며 GateWay입니다! 
 > 매일 업데이트하며 부족한 부분은 매일 채워나가고 있습니다. 
 
-
- 1. 운영체제 : [[OS Moc]]         
- 2. 네트워크 : [[Network MOC]]            
- 3. 하드웨어 : [[Hardware Moc]]
- 4. 소프트웨어 : [[software Moc]]
- 5. Web : [[WEB Moc]]
- 6. progamming Language [[programming Moc]]    
- 7. 자료 구조 [[data_structure MOC]]    
- 8. 알고리즘  [[Algorithm MOCs]]
- 9. etc : [[etc Moc]]
+ 1. Web : [[WEB Moc]]
+ 2. 소프트웨어 개발 ( 프론트 및 백앤드 상위 범주) : [[software Moc]]
+ 3. progamming Language [[programming Moc]]    
+ 4. 자료 구조 [[data_structure MOC]]    
+ 5. 알고리즘  [[Algorithm MOCs]]
+ 6. 운영체제 : [[OS Moc]]         
+ 7. 네트워크 : [[Network MOC]]            
+ 8. 하드웨어 : [[Hardware Moc]]
+ 10. etc : [[etc Moc]]
 
 
 

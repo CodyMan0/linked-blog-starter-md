@@ -7,4 +7,3 @@ NPM은 Node Package Manager로 nodejs로 만들어진 앱들의 앱스토어입�
 ### 연결 문서 
 - [[posix CLI]]
 - [[yarn]]
-- [[npx]]
