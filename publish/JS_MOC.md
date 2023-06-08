@@ -12,7 +12,6 @@
 ## 특징
 [[JS_Feature]]
 
-
 ## 장단점
 [[Advantage of JS]]
 [[limitation of JS]]
