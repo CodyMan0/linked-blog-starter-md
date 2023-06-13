@@ -28,3 +28,7 @@ Tailwind CSS는 **Utility-First 컨셉**(이름을 지정하지 않고 지정된
 1. 코딩 애플 : https://www.youtube.com/watch?v=--D4WMPEIZI
 2. 제주코딩 베이스 캠프 : https://www.youtube.com/watch?v=EoDYYPUooKY
 3. 유명 강의 : https://www.youtube.com/watch?v=tk11Rl7lyRQ
+
+
+
+## tailwind는 어떻게 server component에 스타일이 입히는거지? 

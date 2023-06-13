@@ -1,52 +1,3 @@
-# 0. 폼어떻게 만들지?
-
-관리자 에디터 페이지는 JSON 폼을 만들어야하는 페이지 사용자는 데이터를 받아서 보여주는 페이지여서 survey.Js를 사용해도 된다. 
-Survey를 하는 페이지를 만드는 것은 survey.js로 하면 되는데 그 폼을 만드는 페이지는 어떻게 해야하는지 감이 안온다
-
-# 1. hover 시 인풋만 색을 못 받는다? 
-![[스크린샷 2022-09-28 오후 2.14.24.png]]
-
-
-	에디터 관리자 설정 완료  -> 링크 페이지 ``
-
-post 
-
-
-# 2. 어떻게 콘텐츠를 넘겨줄 수 있을까? 
-https://velog.io/@hyunjoogo/React-children-Component%EC%97%90-props-%EC%A0%84%EB%8B%AC%ED%95%98%EA%B8%B0
-
-
-# 3. label과 textarea , form의 연관성 정리 
-
-
-
-# 4. 선택 질문 항목에 대한 각각의 제목들을 식별해서 그에 따른 UI 그려주는 방법이 뭐가 있을까??
-
-
-
-5. 폼데이터 불러오는 것 어떻게?
-	-> 
-
-
-6. 모든 form들의 state를 관리할 수가 없다. 
-![[스크린샷 2022-09-29 오후 6.08.22.png]]
-
--> useFieldArray를 사용해볼까? 
-
-
-7. form안에 너무 중첩돼어 Input들이 있어서... 어떻게 하면좋을지 찾다가
--> useFormContext를 찾았다
-
-This custom hook allows you to access the form context. `useFormContext` is intended to be used in ==deeply nested structures==, where it would become inconvenient to pass the context as a prop.
-
-
-8. 하... 인풋이 공통 컴포넌트여서 각자 값을 주는 것이 생각보다 어렵다. 그래서 useFieldArray를 사용해보려고 한다. 
--> Custom hook for working with Field Arrays (dynamic form). The motivation is to provide better user experience and performance. You can watch [this short video](https://www.youtube.com/watch?v=Q7lrHuUfgIs) to visualize the performance enhancement.
-
-9. 뒤에서 삭제를 했을떄는 가능한데 앞에서 삭제했을때는 안되는 버그.
-![[스크린샷 2022-09-30 오후 2.57.26.png|500]]
-10. Ref를 props로 넘겨줄때 만난 에러
-![[스크린샷 2022-09-30 오후 4.20.38.png]]
 
 
 ==ref와 state 차이 정리==
@@ -426,54 +377,60 @@ formProvider을 최상단으로 감싸주고 form의 위치를 바꾸니 어렵�
 39. 에러가 없어도 스타일은 보여진다? 그래서 ErrorMessage라는 컴포넌트를 사용해보려고 한다, ![[스크린샷 2022-10-06 오후 6.17.48.png]]
 해결!! ![[스크린샷 2022-10-07 오전 8.55.30.png]]
 
-41. 관리자 설정하러 가기 버튼을 눌렀을떄 유효성검사가 이루어지고 싶은데... 에러 객체가 생기는 시점이 폼이 생성되는 시점이다.. 그래서 관리자 설정에 들어가서 완료 버튼을 누를때 실행이 되는 문제가 있어서
+# 41. 관리자 설정하러 가기 버튼을 눌렀을떄 유효성검사가 이루어지고 싶은데... 에러 객체가 생기는 시점이 폼이 생성되는 시점이다.. 그래서 관리자 설정에 들어가서 완료 버튼을 누를때 실행이 되는 문제가 있어서
 
-	관리자 설정하러가기 할떄 button에 type=input을 줘서 이때 폼을 날아가게 해야하나? 라고 생각했느데 그럼 백앤드 서버로 두번의 데이터가 넘어가게 되어 비효율 적
+관리자 설정하러가기 할때 button에 type=input을 줘서 이때 폼을 날아가게 해야하나? 라고 생각했느데 그럼 백앤드 서버로 두번의 데이터가 넘어가게 되어 비효율적이라고 판단했다.
 
-	그럼 수동적으로 할 수 있는게 없을까? 하다가 찾게 된 것
-trigger 되는지 모른다. 시도
+그럼 수동적으로 할 수 있는게 없을까?  하다가 찾게 된 것 react-hook-form의 trigger
+
 ![[스크린샷 2022-10-07 오전 9.06.34.png]]
-해결
 
-42. 클릭했을떄 trigger가 발동되는데 그떄 들어온 errors 값을 가지고 있으면 안넘어가게 하려고한다.
-트리거를 버튼에 놓지 않고 인풋에 놔야하나? 그럼 해결되는 건가>? 
 
-아니다!!
+# 42. 다음으로 가기를 클릭했을때 trigger가 발동되는데 그때 errors 객체가 True면 모달이 나오지 않도록 하고 싶다. 
 
-==43.모든 문제는 트리거가 됐을떄 errors 객체에 담겨서 한번 늦게 실행한다는 문제에서 시작!!== 
+> 모든 문제는 트리거가 됐을떄 errors 객체에 담겨서 한번 늦게 실행한다는 문제에서 시작!!
+
+
 -> 비동기로 처리해야할 것 같다 그래야 문제없이 실행될 것 같다.
--> setTimeOut?d
 ![[스크린샷 2022-10-07 오전 10.25.57.png]]
   
 문제 상황  
 onClickHandler 함수 안에 있는 Trigger 함수는 세가지 유효성 검사를 수동으로 진행시켜 유효하지 않으면 이 함수 밖에 있는 errors 객체에 각 객체를 추가시킨다.그런데 onClickHandler가 실행될 당시 Errors는 빈객체여서 아래에 있는 기능이!! 무효한 상황
 
+클릭하면 OnClick 함수 실행 -> trigger 함수 발동 4가지 에러 수동으로 실행 -> 전역에 있는 error 객체에 담긴다. -> error를 본다 -> 당연히 없지  
 
-클릭하면 OnClick 함수 실행 -> trigger 함수 발동 4가지 에러 수동으로 실행) -> 전역에 있는 error 객체에 담긴다. -> error를 본다 -> 당연히 없지  
+1. 클릭 이벤트에 거는 것이 아니라? 다른 방법으로 할 수 있는 방법이 있을까?
+2. 클릭 이벤트가 발생하는 동시에 error 객체에 담길 수 있으면 어떨까?
 
-그러면 어떻게 할가?
-클릭하면 OnClick 함수 실행 -> trigger 함수 발동 4가지 에러 수동으로 실행) -> 전역에 있는 error 객체에 담긴다 ->
-
-
-1. 클릭 이벤트에 거는 것이 아니라? 다른 방법? 
-2. 클릭 이벤트에 같이 걸려면 어떻게 해야하난?
-
--> 클릭했을때 에러에 담기게 하면 안된다? 그럼 언제 해야하는거지?
+클릭했을때 에러에 담기게 하면 안된다? 그럼 그 시점을 어떻게 조절해야하는 거지?  그럼 언제 해야하는거지?
 
 -> onClick에서 한단계 나눠주면 안되나?
 
-true and false를 써서 값이 트루면 onClickTrigger 함수를 할 수 있게 하면 어떨까
+**true and false를 써서 값이 트루면 onClickTrigger 함수를 할 수 있게 하면 어떨까**
 
--> 미쳤다
-![[스크린샷 2022-10-07 오후 2.06.17.png]]
-시점을 나눠주니 됐다.
+```js
+<Button
+	type="button"
+	onClick={async () => {
+		const result = await trigger([
+		'surveyName',
+		'startDate',
+		'endDate',
+		])
+	if (result) {
+		onClickTrigger(errors)
+	}
+	}}
+>
+```
 
-Q. async await 을 빼니깐 안된다.  
+시점을 나눠주니 해결 
 
 
 
- 43. 영상 찍으면서 찾은 에러 정리 
-	 1. 폼을 삭제했는데... 삭제한 form이 고객 페이지에서는 보여진다.
+
+# 43. 최종 QA때 발견한 에러
+1. 폼을 삭제했는데... 삭제한 form이 고객 페이지에서는 보여진다.
 	2. 유효성 검사 다시 체크 하기 
 		1. 제목
 		2. 날짜 (4 - 2-2) 
@@ -484,17 +441,44 @@ Q. async await 을 빼니깐 안된다.
 	6. 통계 헤더 필요하다. 
 
 
-## 폼 안에서 질문을 삭제했는데 보낼때는 삭제가 안된 상태에서 보내진다. 
+## 설문지 생성 페이지
+### 질문 항목 중 삭제를 한 경우, 보여지는 UI에서는 삭제가 됐지만 서버로 보내지는 데이터에선 삭제가 반영이 되지 않는 상황 
 
-삭제를 하는 것은 setFormList를 해줘서 보이는 것을 없애주는 상황 
+#### 현재 UI는 state 객체를 렌더링한다.
+1. 선택항목을 누르면 State 객체에 해당 항목에 관련한 데이터가 추가된다.
+2. 선택항목에 대한 컴포넌트가 실제 렌더링 되기 전, react-hook-form의 register를 통해 해당 input의 ref를 저정하고 이 값은 useForm 내부 값으로 저장 된다.
+3. 생성된 항목을 삭제하면 State 객체에 데이터의 해당 ID를 삭제한다. 
+-> 당연히 삭제가 되지 않는다. 삭제하는 로직이 없다.
 
-FormList.FormData를 맵을 돌려 UI를 보여주고 있고 그 안에 Register로
+그렇다면 삭제하는 로직을 추가하는게 맞는건가? 
 
-보내는 formData는 삭제가 반영이  안되는데
+여기서 근본적인 문제는 하나의 UI를 표현하는데 두개의 값을 사용한것. 
 
-폼데이터에서 빼주는 삭제기능도 동시에 만들어야하는 것 같다 
+해결 방법 
+1. unregister 로직을 삭제시 추가한다. 
+```js
+import React, { useEffect } from "react";
+import { useForm } from "react-hook-form";
 
-삭제 버튼 누르면 unregister 시켜줘야하는 것 같다. 
+export default function App() { 
+
+const { register, handleSubmit, unregister } = useForm()
+
+	useEffect(() => { 
+		register("lastName");
+		}, [register]) 
+	
+	return ( 
+	<form>
+	  <button type="button"
+	   onClick={() => unregister("lastName")}>unregister</button>
+	   <input type="submit" /> </form> )
+	   ; }
+```
+
+근본적인 해결 방법
+1. 근본적인 문제는 UI에 해당하는 값이 두개라는 것이 핵심이라고 판단했다. 첫번째는 선택항목을 눌렀을때 state에 선택항목에 해당하는 데이터를 추가하고 해당 하는 항목 컴포넌트가 UI에 마운트 될때 input에 react-hook-form의 register를 활용하여 또 다른 상태의 값을 만들었던 것. 기존의 FormList라는 state를 제거하고 useFormContext라는 react-hook-form 라이브러리에서 제공해주는 Context를 사용하여 선택항목이 클릭될때 해당 선택 항목 컴포넌트가 마운트되어 ref에 있는 값을 다른 컴포넌트에서 get하여 보여주는 로직으로 수정.
+
 
 ### 언제 추가 되는지 봐야할 수 있겠따. 
 아무것도 없을때 

@@ -2,7 +2,7 @@
 
 # REST-API
 
--  #한마디정리 API에서 전송하는 자원(resource)은URI로 해당 리소스에 행하고자 하는 의도를 HTTP 메소드 (get, post, put, delete)로 정의하는 방식입니다.
+-> API에서 전송하는 자원(resource)은 URI로 해당 리소스에 행하고자 하는 의도를 HTTP 메소드 (get, post, put, delete)로 정의하는 방식입니다.
 
 
 REST는 Representational State Transfer의 줄임말입니다. REST는 클라이언트가 서버 데이터에 액세스(남의 컴퓨터의 기능을 실행시키는 것) 하는 데 사용할 수 있는 **GET, PUT, DELETE 등의 함수 집합을 정의**합니다. 클라이언트와 서버는 HTTP를 사용하여 데이터를 교환합니다.

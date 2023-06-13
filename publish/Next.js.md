@@ -12,6 +12,31 @@ URL : https://www.youtube.com/watch?v=ECMB4kUCKWQ&t=448s
 [공식문서](https://nextjs.org/learn/basics/create-nextjs-app)
 https://www.reason-to-code.com/blog/why-we-couldn't-feel-the-difference-of-nextjs/
 넥스트 작동방식 : https://velog.io/@surim014/how-next.js-works#%EA%B0%9C%EB%B0%9C-%EB%B0%8F-%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%ED%99%98%EA%B2%BD
+App 라우터 작동 원리 : https://junghan92.medium.com/%EB%B2%88%EC%97%AD-next-js%EC%9D%98-app-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-28672980d765
+-> https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production
+# App router 사용 이유
+## Why use the App Router?
+
+1. loading을 없애기 위해 정적 렌더링(SSG)를 사용하여 즉시 보여준다.
+2. spa에서의 새로고침이 없이 인증 리디렉션을 처리하는 미들웨어를 제공한다. 
+3. 기본적으로 번들링과 code splitting을 제공
+4. Edge 함수 도입을 도와준다.
+
+### APP 라우터의 장점
+1. 중첩 레이웃을 통해서 상태를 보존하고 비용이 많이 드는 렌더링을 해결할 수 있다. 
+2. 서버를 더 사용하기 위해 React Server Components를 사용
+3. streaming을 통해 모든 데이터를 로드하기를 기다리지 않고 페이지 일부를 빨리 표시할 수 있다. 
+## 1. 두가지의 캐시 이해하기 
+### 1. 클라이언트 캐시 
+클라이언트 캐시는 라우트(url)에 사전에 가지고온 payload에 저장하여 네비게이션이 빠르게 느껴지도록하는 것
+
+### 2. 서버 캐시
+서버에서의 캐시란 서버 측 데이터를 가지고오는 성능을 향상시키는게 핵심
+
+## 특징
+1. layout component는 리렌더가 발생하지 않는다. 
+
+
 
 # 공식문서 1독
 -> SSR로 동작하는 어플이 브라우저에 어떻게 렌더링이 되는지 이해하기 위해 한번 읽는 것 

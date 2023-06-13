@@ -11,30 +11,11 @@ ReactJs 기반 SPA 설문조사 Application.
 **기술 스택 :** `React.js`, `Javascript`, `Styled-components`, `react-hook-form`, `Git` , `taiga` ,`postMan`
 
 ## Proposal Phase
-
--   [[ project Proposal ]]
--   [[ market reseach ]]
 -   [[ First Proposal meetup ]]
 
-## design Phase
-
--   [[ third design wire frame ]]
 
 ## 고민한 흔적
-
-1.  [Development of Component Design](https://juyoungdev.com/development-of-component-design)
-2.  [useForm](https://juyoungdev.com/useform)
-3.  [Difference between ref and state](https://juyoungdev.com/difference-between-ref-and-state)
-4.  [think like react](https://juyoungdev.com/think-like-react)
-
-## 회의 중 몰랐던 어휘들
-
-1.  [[ meeting new word MOC ]]
-2.  [KODA ErrorNote](https://juyoungdev.com/koda-errornote)
-
-## 데이터의 흐름 그림
-
-1.  [[ 내부 설문조사 툴 데이터 흐름 ]]
+0. [[KODA ErrorNote]]
 
 ## 발표 자료 준비 시 참고
 
