@@ -25,6 +25,16 @@
 원티드 세션 : [[typescript session]]
 스터디 : [[typescript_study]]
 
+
+## 간단한 내용
+1.  객체 타입 검사용 : satisfies 연산자
+```ts
+const palette = {
+	red: [255, 0, 0],
+	green: "#00ff00",
+	bleu: [0, 0, 255], // blue 오타 
+} satisfies Record<'red' | 'green' | 'blue', [number, number, number] | string>;
+```
 포인트 : 트랜스파일러, 컴파일러, 파싱, 바벨
 
 

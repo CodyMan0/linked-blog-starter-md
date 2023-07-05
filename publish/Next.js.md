@@ -14,7 +14,19 @@ https://www.reason-to-code.com/blog/why-we-couldn't-feel-the-difference-of-nextj
 넥스트 작동방식 : https://velog.io/@surim014/how-next.js-works#%EA%B0%9C%EB%B0%9C-%EB%B0%8F-%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%ED%99%98%EA%B2%BD
 App 라우터 작동 원리 : https://junghan92.medium.com/%EB%B2%88%EC%97%AD-next-js%EC%9D%98-app-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-28672980d765
 -> https://www.inngest.com/blog/5-lessons-learned-from-taking-next-js-app-router-to-production
+
+벨로그 : https://velog.io/@typo/next.js-13.4
+# 궁금증 해결 과정
+1. next.js 12 버전은 렌더링 방식이 페이지 단위 , 13에서는 컴포넌트 단위로 변경.
+
+2. 그럼 백엔드는 필요없는건가?
+-> next.js 자체가 백앤드이며 사용은 가능하다만 작은 서비스가 아닌 이상 아직은 분리돼어 관리하는것이 용이하다고 본다고 하심.
+
+
+
 # App router 사용 이유
+
+이전에는 Next.js에서 `getgetServerSideProps`를 사용하여 서버 사이드 렌더링을 적용하면 전체 페이지가 하이드레이션될 때까지 애플리케이션과의 상호 작용이 차단되었습니다. App 라우터와 함께 리액트 서스펜스를 깊이 통합하여 아키텍처를 리팩터링함으로써 페이지의 일부만 선택적으로 하이드레이트할 수 있게 되었습니다.
 ## Why use the App Router?
 
 1. loading을 없애기 위해 정적 렌더링(SSG)를 사용하여 즉시 보여준다.
@@ -36,7 +48,11 @@ App 라우터 작동 원리 : https://junghan92.medium.com/%EB%B2%88%EC%97%AD-ne
 ## 특징
 1. layout component는 리렌더가 발생하지 않는다. 
 
+## openGraph and metadata
+https://yceffort.kr/2023/05/blog-app-dir\
 
+## sitemap 
+app/sitemap.ts 에약어로 가능하다. 
 
 # 공식문서 1독
 -> SSR로 동작하는 어플이 브라우저에 어떻게 렌더링이 되는지 이해하기 위해 한번 읽는 것 

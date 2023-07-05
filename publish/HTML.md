@@ -1,7 +1,8 @@
 
 
-# 작지만 강한 HTML 나만의 정리 노트
+# HTML
 
+## Element
 1. [[form tag]]
 2. [[href of a tag]]
 
