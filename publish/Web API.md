@@ -7,8 +7,7 @@ Web API 또는 웹 서비스 API는 웹 서버와 웹 브라우저 간의 애플
 1. [[event loop]]
 2. [[kinds of event loop]]
 3. [[XMLHttpRequest]]
-
-
+4. [[intersection Observer]]
 
 ### 연결문서
 - [[object modeling]]

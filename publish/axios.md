@@ -1,7 +1,20 @@
 
 # axios
 
-js 런티임 환경 (브라우저 및 Node.js) 에서 사용할 수 있는  Promise 기반의 HTTP 비동기 통신 라이브러리!
+js 런타임 환경 (브라우저 및 Node.js) 에서 사용할 수 있는  Promise 기반의 HTTP 비동기 통신 라이브러리!
+
+## 특징
+
+- 브라우저를 위해 [XMLHttpRequests](https://developer.mozilla.org/ko/docs/Web/API/XMLHttpRequest) 생성
+- node.js를 위해 [http](http://nodejs.org/api/http.html) 요청 생성
+- [Promise](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise) API를 지원
+- 요청 및 응답 인터셉트
+- 요청 및 응답 데이터 변환
+- 요청 취소
+- JSON 데이터 자동 변환
+- [XSRF](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%ED%8A%B8_%EA%B0%84_%EC%9A%94%EC%B2%AD_%EC%9C%84%EC%A1%B0)를 막기위한 클라이언트 사이드 지원
+
+출처 : [공식문서](https://axios-http.com/kr/docs/intro)
 
 ##  Fetch와 비교
 
